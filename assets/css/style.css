@@ -1,0 +1,176 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+ul{
+	list-style:none;
+}
+a:link, a:visited{
+	text-decoration:none;
+}
+.container-fluid{
+	width:1072px;
+	max-width:90%;
+	margin-top:70px;
+	
+}
+.header{
+	margin-bottom:70px;
+}
+.row{
+	display:table;
+	clear:both;
+	width:100%;
+}
+[class^="col-"]{
+	padding:0 15px;
+	float:left;
+}
+.text-center{
+	text-align:center;
+}
+.text-right{
+	text-align:right;
+}
+.offset-1{
+	margin-left:calc((100 * 1)/12);
+}
+.offset-2{
+	margin-left:calc((100 * 2)/12);
+}
+.offset-3{
+	margin-left:calc((100 * 3)/12);
+}
+
+.col-2{
+	width:calc((100 * 2)/12);
+}
+.col-6{
+	width:calc((100 * 6)/12);
+}
+
+.col-10{
+	width:calc((100 * 10)/12);
+}
+.col-9{
+	width:calc((100 * 9)/12);
+}
+.col-11{
+	width:calc((100 * 11)/12);
+}
+.logo{
+	display:inline-block;
+}
+.navbar{
+	display:inline-block;
+	margin-left:30px;
+}
+.navbar li{
+	display:inline-block;
+}
+.navbar li a:link,
+.navbar li a:visited{
+	display:inline-block;
+	color:#626262;
+	font-size:14px;
+	text-transform:uppercase;
+	padding:0 30px;
+}
+.girlslogo{
+	margin-bottom:95px;
+}
+span{
+	color:#b4ad9e;
+	font-size:14px;
+}
+.gateway h2{
+	padding-bottom:42px;
+	padding-top:25px;
+	color:#626262;
+	font-size:30px;
+}
+.gateway p{
+	padding-bottom:49px;
+	color:#626262;
+	font-size:14px;
+}
+
+.sectiongetawaysection{
+	margin:136px 0 114px;
+}
+.cup{
+	width:380px;
+	height:280px;
+	padding:0 30px;
+	display:inline-block;
+	margin-bottom:30px;
+}
+
+.lifestyle h4{
+	color:#626262;
+	font-size:30px;
+	
+}
+.lifestyle p{
+	color:#626262;
+	font-size:14px;
+	
+}
+.sectionsignupsection {
+	background-color:#dedddc;
+}
+.sectionsignupsection .container{
+	width:1100px;
+	height:285px;
+	background-color:#dedddc;
+	margin-bottom:80px;
+}
+.sign{
+	padding:70px 68px;
+}
+.news{
+	padding-bottom:70px;
+}
+
+.cold{
+	font-size:30px;
+	color:#333333;	
+}
+.lorem{
+	font-size:14px;
+	color:#626262;
+	padding-bottom:80px;
+}
+.load a{
+	color:#626262;
+	font-size:20px;
+	background:#ffffff;
+	padding:25px 35px;
+	border:2px solid black;
+	
+}
+
+.footer{
+	background-color:#f0f0f0;
+}
+.space{
+	padding:35px 40px ;
+	background-color:#f0f0f0;
+	
+}
+.term{
+	color:#000000;
+	font-size:14px;
+	display:inline-block;
+	padding-right:15px;
+}
+.follow li{
+	display:inline-block;
+	padding-right:14px;
+	color:#000000;
+}
+.follow li a{
+	color:#000000;
+}
+
